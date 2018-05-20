@@ -1,0 +1,111 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Trebuchet MS;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+/* name, description and logo*/
+
+.header {
+  text-align: right;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 3%;
+  border-bottom: 5px solid;
+  border-color: #7d97ad;
+
+}
+
+.trainer-logo {
+  max-width: 13%;
+  width: 15%;
+  float: left;
+  margin-left: 5%;
+}
+
+.portfolio_title {
+  font-size: 50px;
+  font-family: Trebuchet MS
+  padding-right: 3%;
+}
+
+.portfolio_description {
+  pdding-right: 3%
+}
+
+/*information about me and headshot*/
+
+.aboutMe {
+
+}
+
+#headshot {
+  max-width: 20%;
+  border-radius: 20%;
+  float: right;
+  margin-top: auto;
+  margin-right: 10%;
+}
+
+.info {
+  margin-left: 5%;
+  margin-top: 5%;
+  max-width: 60%;
+  font-size: 18px;
+  padding-left: 3%;
+  line-height: 1.5;
+  padding-top: 3%;
+}
+
+/*links to projects done with images*/
+
+.work {
+  margin-top: 5%;
+  margin-left:
+}
+
+.featured-work {
+  margin-left: 10%;
+  text-decoration: underline;
+  font-size: 40px;
+  color: #2d3c49;
+}
+
+.work-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.caption {
+  
+}
+#codepen {
+  border: 5px solid;
+  border-color: #2d3c49;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  max-width: 20%;
+  order: 0
+}
+
+#udacity {
+  max-width: 30%;
+  margin-top: 2%;
+  margin-left: 2%;
+  order: 1;
+}
+
+#freeCodeCamp {
+  max-width: 15%;
+  margin-top: 2%;
+  margin-left: 5%;
+  order: 2;
+}
