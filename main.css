@@ -38,7 +38,7 @@ body {
 }
 
 .portfolio_description {
-  pdding-right: 3%
+  pdding-right: 3%;
 }
 
 /*information about me and headshot*/
@@ -69,7 +69,6 @@ body {
 
 .work {
   margin-top: 5%;
-  margin-left:
 }
 
 .featured-work {
@@ -79,21 +78,33 @@ body {
   color: #2d3c49;
 }
 
-.work-images {
+.flex-container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .caption {
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  caption-side: bottom;
 }
+
 #codepen {
   border: 5px solid;
   border-color: #2d3c49;
   margin-left: 10%;
   margin-bottom: 5%;
   max-width: 20%;
-  order: 0
+  order: 0;
+  caption-side: bottom;
 }
 
 #udacity {
