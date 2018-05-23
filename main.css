@@ -81,6 +81,7 @@ body {
 
 .flex-container {
   width: 90%;
+  border: 5px solid;
 }
 
 .work-logo {
@@ -88,6 +89,8 @@ body {
   flex-direction: column;
   align-content: flex-start;
   justify-content: space-around;
+  padding-left: 3%;
+  padding-top: 2%;
 
 }
 
